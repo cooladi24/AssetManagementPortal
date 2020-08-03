@@ -20,7 +20,7 @@ if (uid != null)
 <b><marquee> ASSET MANAGEMENT PORTAL </marquee></b><br><br>
 <form action="deletepr.jsp" >
 <table border="1">
-<tr><td>Asset Id</td><td><input type="text" name="id"></td></tr>
+<tr><td>Asset Id</td><td><input type="text" name="id" required></td></tr>
 <tr><td>Asset Description</td><td><input type="text" name="desc"></td></tr>
 <tr><td>Version</td><td><input type="text" name="version"></td></tr>
 <tr><td>Location</td><td><input type="text" name="location"></td></tr>

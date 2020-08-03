@@ -20,7 +20,7 @@ if (uid != null)
 <b><marquee> ASSET MANAGEMENT PORTAL </marquee></b><br><br>
 <form action="assetdetailpr.jsp" >
 <table border="1">
-<tr><td>Asset Id</td><td><input type="text" name="id"></td></tr>
+<tr><td>Asset Id</td><td><input type="text" name="id" required></td></tr>
 <tr><td>Asset Value</td><td><input type="text" name="assval"></td></tr>
 <tr><td colspan="2"><center><input type="radio" name="query" value="insert">Insert Data</center></td></tr>
 <tr><td colspan="2"><center><input type="radio" name="query" value="delete">Delete Data</center></td></tr>
